@@ -6,7 +6,6 @@ const ErrorPage = () => {
 
   console.log(error);
 
-
   return (
     <div>
       <h1>Oops!</h1>
@@ -14,9 +13,12 @@ const ErrorPage = () => {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
-      <a href="">Regresar</a>
+      <h3>
+        Visita el menú de
+        <a href="/">inicio</a> de nuestra página.
+      </h3>
     </div>
-  )
-}
+  );
+};
 
-export default ErrorPage
+export default ErrorPage;
