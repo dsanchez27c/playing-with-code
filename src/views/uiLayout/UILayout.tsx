@@ -6,7 +6,7 @@ import MenuBar from '../../components/menuBar/MenuBar';
 
 export default function UILayout() {
   return (
-    <div className={UILayoutStyle}>
+    <div className={`${UILayoutStyle} ui-layout-style`}>
       <AddTopBar />
       <MenuBar />
 

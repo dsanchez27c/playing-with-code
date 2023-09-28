@@ -1,9 +1,11 @@
 import { style } from 'typestyle';
 
 export const UILayoutStyle = style({
+  minHeight: '100vh',
+
   $nest: {
-    '& .logoContainer': {
-      width: '100px'
+    '& .detail-container': {
+      backgroundColor: '#c2c2c2'
     }
   }
 });

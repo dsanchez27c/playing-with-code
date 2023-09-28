@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './../../logo.svg';
 import { MenuItemsInterface } from '../../interfaces/views/uiLayout/UILayoutInterface';
+import { MenuBarStyle } from '../../styles/components/menuBar/MenuBarStyle';
 
 const MenuBar = () => {
   const menuItems: MenuItemsInterface[] = [
@@ -23,9 +24,9 @@ const MenuBar = () => {
   ];
 
   return (
-    <div className="MenuBarStyle">
+    <div className={MenuBarStyle}>
       <div className="menu-bar">
-        <div className="logoContainer">
+        <div className="logo-container">
           <img src={logo} alt="logo" title="logo" />
         </div>
         <ul className="menu-bar-list-container">
